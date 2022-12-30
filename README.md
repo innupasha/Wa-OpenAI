@@ -3,7 +3,7 @@
 ***WhatsApp OpenAI Create with NodeJS Using Library [Baileys](https://github.com/adiwajshing/Baileys)***
 ## BACA DULU
 Terdapat 2 tipe yaitu menggunakan command dan tanpa menggunakan command (auto chat).
-- Jika ingin menggunakan command silakan ganti kata ```true``` menjadi ```false``` di file [key.json](https://github.com/innupasha/Wa-OpenAI/blob/586dbf2e7bb182b3a649d560e50ef44911fb4db8/key.json#L3)<br>Untuk commandnya menggunakan ```.ai```
+- Jika ingin menggunakan command silakan ganti kata ```true``` menjadi ```false``` di file [key.json](https://github.com/innupasha/Wa-OpenAI/blob/eb10e6cb7e0f968809842d632193fdb54ec8ceda/key.json#L3)<br>Untuk commandnya menggunakan ```.ai```
 - Jika tidak ingin menggunakan command (auto chat) silakan ganti kata ```false``` menjadi ```true``` di file [key.json](https://github.com/innupasha/Wa-OpenAI/blob/eb10e6cb7e0f968809842d632193fdb54ec8ceda/key.json#L3)
 
 ## Get & Change OpenAI ApiKey
