@@ -1,7 +1,7 @@
 {
   "name": "Wa-OpenAI",
   "version": "2.0.0",
-  "description": "WhatsApp Bot OpenAI Using Lib Baileys Multi Device",
+  "description": "WhatsApp Bot OpenAI ChatGPT Using Lib Baileys Multi Device",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
