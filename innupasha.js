@@ -80,12 +80,16 @@ Tanyakan apa saja kepada AI.
 
 *(DALL-E)*
 Cmd: ${prefix}img
-Membuat gambar dari teks`)
+Membuat gambar dari teks
+
+*(Source Code Bot)*
+Cmd: ${prefix}sc
+Menampilkan source code bot yang dipakai`)
           break;
         case "ai": case "openai": 
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
-            if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Dimana lokasi Universitas Baturaja`);
+            if (!text) return reply(`Chat dengan AI.\n\nContoh:\n${prefix}${command} Apa itu resesi`);
             const configuration = new Configuration({
               apiKey: setting.keyopenai,
             });
@@ -143,6 +147,9 @@ Membuat gambar dari teks`)
           }
         }
           break;
+          case "sc": case "script": case "scbot":
+           m.reply("Bot ini menggunakan script dari https://github.com/innupasha/Wa-OpenAI");
+          break
         default: {
           if (isCmd2 && budy.toLowerCase() != undefined) {
             if (m.chat.endsWith("broadcast")) return;
